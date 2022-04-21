@@ -6,8 +6,48 @@
     letter-spacing: 0.3px;
 }
 
+header{
+    background-color: lavenderblush;
+}
+
+.presentationTxt{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+margin: 0.8rem;
+padding: 00.5rem;
+}
+
+.nameTxt {
+    font-weight: 400;
+    font-size: large;
+}
+
+.bioTxt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: medium;
+    opacity: 0.8;
+}
+
+.locationTxt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    opacity: 0.7;
+}
+
+.icon {
+    border-radius: 50%;
+    display: flex;
+}
+
 body{
-    background-color: pink;
+    background-color: thistle;
 }
     .movieCard  {
         display: flex;
@@ -48,12 +88,44 @@ body{
 }
 
 .descriptionTxt  {
-    font-size: medium;
+    font-size: smaller;
     opacity: 0.9;
 }
 
 .castTxt {
-    font-size: small;
+    font-size:x-small;
     font-style: italic;
     opacity: 0.9;
+}
+
+footer{
+    background-color: lavenderblush ;
+}
+.lettericon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25px;
+    height: 25px;
+}
+
+.bottomTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.userTxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: small;
+    opacity: 0.7;
 }
